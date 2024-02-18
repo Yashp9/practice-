@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Documenttt</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600&family=Poppins&family=Rubik+Bubbles&family=Ubuntu&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="images/logo.png" alt="logo">
+                <ul>
+                    <li><a href="">home</a></li>
+                    <li><a href="about">about</a></li>
+                    <li><a href="services">services</a></li>
+                    <li><a href="portfolio">portfolio</a></li>
+                    <li><a href="contact">contact</a></li>
+                </ul>
+            </nav>
+            <div class="header-text">
+                <p>web developer</p>
+                <h1>Hi, I'm <span>Yash Pandey </span><br>I have been creating website for more than 1 year</h1>
+            </div>
+        </div>
+    </div>
+    <!-- about -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/user.png" alt="photo">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title" >about me</h1>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link "onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-content active-tab" id="skills">
+                        <ul>
+                            <li><span>Web Developer </span><br>Designing websites</li>
+                             <li><span>Web Developer </span><br>Designing websites</li>
+                              <li><span>Web Developer </span><br>Designing websites</li>
+                        </ul>
+                    </div>
+                    <div class="tab-content" id="experience">
+                        <ul>
+                            <li><span> experience</span><br>Designing websites</li>
+                             <li><span>experience</span><br>Designing websites</li>
+                              <li><span>experience</span><br>Designing websites</li>
+                        </ul>
+                    </div>
+                    <div class="tab-content" id="education">
+                        <ul>
+                            <li><span>education</span><br>Designing websites</li>
+                            <li><span>education</span><br>Designing websites</li>
+                            <li><span>education</span><br>Designing websites</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="main.js"></script>
+</html>
